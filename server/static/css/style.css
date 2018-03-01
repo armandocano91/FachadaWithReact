@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  background: url("../css/sala-de-estar-borrosa_1203-32.jpg");
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  background-size: 125% 150%;
+}
+html {
+  height: 100%;
+
+}
+
+.homepic{
+
+  width: 850px;
+  height: 610px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+
+
+a {
+  width: 200px;
+  height: 100px;
+  text-decoration: none;
+  color:  #B22222;
+  font-weight: bold;
+  transition: color 0.4s;
+}
+
+a:hover {
+  color: #1976d2;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.top-bar {
+  font-size: 26px;
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.top-bar::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.top-bar-left {
+  float: left;
+  font-size: 50px;
+  min-height: 60px;
+  min-width: 160px;
+
+}
+
+.top-bar-right {
+  margin-top: 15px;
+  float: right;
+  font-size: 30px;
+}
+
+.top-bar a,
+.nav a {
+  margin: 0 15px;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 700px;
+  height: 500px;
+}
+.container1 {
+  margin: 0 auto;
+  text-align: center;
+  width: 700px;
+  height: 500px;
+
+}
+
+.Logo{
+  width: 850px;
+  height: 550px;
+  opacity: 0.9;
+}
+img{
+  max-width: 850px;
+  max-height: 550px;
+  align: center;
+}
+
+.media {
+  height: 450px;
+  position: absolute;
+  top: 49px;
+}
+
+.overlay {
+  position: absolute;
+  top: 40px;
+
+}
+
+.card-heading {
+  padding: 16px;
+}
+
+.field-line, .button-line {
+  padding: 16px;
+}
+
+.error-message {
+  padding: 0 16px;
+  color: tomato;
+}
+
+.success-message {
+  padding: 0 16px;
+  color: green;
+}
